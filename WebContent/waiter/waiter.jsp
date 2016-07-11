@@ -8,11 +8,11 @@
 </head>
 <frameset rows="25%,75%" frameborder="no" border="0" framespacing="0">
 
-<frame src="top.jsp" name="cooker_topFrame" scrolling="no" noresize="noresize" id="cooker_topFrame" title="cooker_topFrame" >
+<frame src="../top.jsp" name="waiter_topFrame" scrolling="no" noresize="noresize" id="waiter_topFrame" title="waiter_topFrame" >
 
 <frameset cols="25%,75%">
-<frame src="cooker_left.jsp" name="cooker_leftFrame" scrolling="no" noresize="noresize" id="cooker_leftFrame" title="cooker_leftFrame">
-<frame src="main.jsp" name="cooker_mainFrame" scrolling="no" noresize="noresize" id="cooker_mainFrame" title="cooker_mainFrame">
+<frame src="waiter_left.jsp" name="waiter_leftFrame" scrolling="no" noresize="noresize" id="waiter_leftFrame" title="waiter_leftFrame">
+<frame src="../main.jsp" name="waiter_mainFrame" scrolling="no" noresize="noresize" id="waiter_mainFrame" title="waiter_mainFrame">
 </frameset>
 
 </frameset>

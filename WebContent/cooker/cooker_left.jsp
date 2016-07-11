@@ -5,7 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
+</head>
+<style>
 	.STYLE5 {font-size: 30px}
 </style>
 <script>
@@ -26,32 +27,28 @@ function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
 	    sourceObj.innerHTML = openTip;   
 	   }  
 	}  
-	}  </script>
-</head>
-<body bgcolor="#ECE4C8" >
+}
+</script>
+<body  bgcolor="#ECE4C8">
 <table border="0">
   <tr>
     <td width="187" align="center" ><span class="STYLE5">Hello！</span></td>
   </tr>
   <tr>
-    <td width="187"><img src="img/breakfast.png" class="png" ></td>
-    <td>• <a href="waiter_infor.jsp"  target="waiter_mainFrame">个人信息：</a></td>
+<td width="187"><img src="../img/breakfast.png" class="png" ></td>
+    <td>• <a href="cooker_infor.jsp"  target="cooker_mainFrame">个人信息：</a></td>
   </tr>
   <tr>
-    <td><img src="img/lunch.png" class="png"></td>
-    <td>• <a href="waiter_menu.jsp"  target="waiter_mainFrame">菜单：</a></td>
-  </tr>
-  <tr>
-    <td><img src="img/afternoontea.png" class="png"></td>
-    <td>▶ <a href="#" onClick="openShutManager(this,'box')">订单：</a>
+    <td><img src="../img/lunch.png" class="png"></td>
+    <td>▶  <a href="#" onClick="openShutManager(this,'box')">订单：</a>
       <table width="163" border="0">
         <tr>
           <td> <p id="box" style="display:none">┅
-          		<a href="waiter_order_ing.jsp"  target="waiter_mainFrame">未完成订单：</a>
-          <br/>┅
-          		<a href="waiter_order_ed.jsp"  target="waiter_mainFrame">已完成订单：</a></p></td>
+          <a href="cooker_order_ing.jsp"  target="cooker_mainFrame">&nbsp;&nbsp;未完成订单：</a>
+          <br/>┅<a href="cooker_order_ed.jsp"  target="cooker_mainFrame">&nbsp;&nbsp;已完成订单：</a></p></td>
         </tr>
-      </table>    </td>
+      </table>
+     </td>
   </tr>
 </table>
 </body>

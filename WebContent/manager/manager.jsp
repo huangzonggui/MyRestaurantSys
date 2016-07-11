@@ -8,11 +8,11 @@
 </head>
 <frameset rows="25%,75%" frameborder="no" border="0" framespacing="0">
 
-<frame src="top.jsp" name="manager_topFrame" scrolling="no" noresize="noresize" id="manager_topFrame" title="manager_topFrame" >
+<frame src="../top.jsp" name="manager_topFrame" scrolling="no" noresize="noresize" id="manager_topFrame" title="manager_topFrame" >
 
 <frameset cols="25%,75%">
 <frame src="manager_left.jsp" name="manager_leftFrame" scrolling="no" noresize="noresize" id="manager_leftFrame" title="manager_leftFrame">
-<frame src="main.jsp" name="manager_mainFrame" scrolling="no" noresize="noresize" id="manager_mainFrame" title="manager_mainFrame">
+<frame src="../main.jsp" name="manager_mainFrame" scrolling="no" noresize="noresize" id="manager_mainFrame" title="manager_mainFrame">
 </frameset>
 
 </frameset>

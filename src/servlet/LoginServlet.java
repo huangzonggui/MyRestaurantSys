@@ -46,11 +46,11 @@ public class LoginServlet extends HttpServlet {
 					HttpSession session = request.getSession(true);
 					session.setAttribute("userAccount", userAccount);
 					if(user.getRole() == 0){
-						response.sendRedirect("manager.jsp");
+						response.sendRedirect("manager/manager.jsp");
 					}else if(user.getRole() == 1){
-						response.sendRedirect("cooker.jsp");
+						response.sendRedirect("cooker/cooker.jsp");
 					}else if(user.getRole() == 2){
-						response.sendRedirect("waiter.jsp");					    
+						response.sendRedirect("waiter/waiter.jsp");					    
 					}
 				}
 				else
